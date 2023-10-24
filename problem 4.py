@@ -4,9 +4,8 @@ cos=math.cos
 tan=math.tan
 fact=math.factorial
 sqr=math.sqrt
-num=int(input("How many times do you want the calculator to run?"))
 
-for i in range(num):
+while True:
     a=int(input("enter a: "))
     re=input('please enter +, -, *, /, sin, cos, tan, cot, fact, sqr: ')
 
