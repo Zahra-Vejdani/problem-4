@@ -7,8 +7,11 @@ sqr=math.sqrt
 
 while True:
     a=int(input("enter a: "))
-    re=input('please enter +, -, *, /, sin, cos, tan, cot, fact, sqr: ')
+    re=input('please enter +, -, *, /, sin, cos, tan, cot, fact, sqr, exit: ')
 
+    if re=="exit"
+    break
+    
     if re=="+":
         b=float(input("enter b: "))
         R=a+b
